@@ -4,7 +4,7 @@ from octoprint.events import eventManager, Events
 from octoprint.util import RepeatedTimer
 from subprocess import Popen, PIPE
 import octoprint.plugin
-import RPi.GPIO as GPIO
+import OPi.GPIO as GPIO
 import flask
 import time
 import sys
